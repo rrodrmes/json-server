@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "number": 1,
+      "title": "Book 1",
+      "requester": "John Well",
+      "requisitionDate": "2022-12-12"
+    },
+    {
+      "number": 2,
+      "title": "Book 2",
+      "requester": "Peter Carballo",
+      "requisitionDate": "2022-12-28"
+    },
+    {
+      "number": 3,
+      "title": "Book 3",
+      "requester": "Paul Turnbull",
+      "requisitionDate": "2023-01-04"
+    }
+  ]
+}
