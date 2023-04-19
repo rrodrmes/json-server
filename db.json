@@ -1,226 +1,224 @@
 {
-  "data": [
-    {
-      "id": 162,
-      "name_prefix": "1.",
-      "name": "Energy",
-      "type": "FIXED",
-      "customization_type": "",
-      "dimension_to_change": null,
-      "order_number": 1010000000000000000,
-      "grid_name": "Grid_1010000000000000000",
-      "template_node_id": null,
-      "node": [
-        {
-          "id": 287,
-          "name_prefix": "1.A.",
-          "name": "Fuel combustion activities (sectoral approach)",
-          "type": "FIXED",
-          "customization_type": "",
-          "dimension_to_change": null,
-          "order_number": 1010100000000000000,
-          "grid_name": "Grid_1010100000000000000",
-          "template_node_id": null,
-          "node": [
-            {
-              "id": 154,
-              "name_prefix": "1.A.1.",
-              "name": "Energy industries",
-              "type": "FIXED",
-              "customization_type": "",
-              "dimension_to_change": null,
-              "order_number": 1010101000000000000,
-              "grid_name": "Grid_1010101000000000000",
-              "template_node_id": null,
-              "node": [
-                {
-                  "id": 147,
-                  "name_prefix": "1.A.1.a.",
-                  "name": "Public electricity and heat production",
-                  "type": "LIST",
-                  "customization_type": "",
-                  "dimension_to_change": null,
-                  "order_number": 1010101010000000000,
-                  "grid_name": "Grid_1010101010000000000",
-                  "template_node_id": null,
-                  "node": [
-                    {
-                      "id": 288,
-                      "name_prefix": "1.A.1.a.i.",
-                      "name": "Electricity generation",
-                      "type": "ITEM",
-                      "customization_type": "",
-                      "dimension_to_change": null,
-                      "order_number": 1010101010100000000,
-                      "grid_name": "Grid_1010101010100000000",
-                      "template_node_id": null,
-                      "node": [
-                        {
-                          "id": 938,
-                          "name_prefix": "",
-                          "name": "Liquid fuels",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010101000000,
-                          "grid_name": "Grid_1010101010101000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 1392,
-                          "name_prefix": "",
-                          "name": "Solid fuels",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010102000000,
-                          "grid_name": "Grid_1010101010102000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 362,
-                          "name_prefix": "",
-                          "name": "Gaseous fuels",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010103000000,
-                          "grid_name": "Grid_1010101010103000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 961,
-                          "name_prefix": "",
-                          "name": "Other fossil fuels",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010104000000,
-                          "grid_name": "Grid_1010101010104000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 348,
-                          "name_prefix": "",
-                          "name": "Peat",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010105000000,
-                          "grid_name": "Grid_1010101010105000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 745,
-                          "name_prefix": "",
-                          "name": "Biomass",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010106000000,
-                          "grid_name": "Grid_1010101010106000000",
-                          "template_node_id": null,
-                          "node": null
-                        }
-                      ]
-                    },
-                    {
-                      "id": 296,
-                      "name_prefix": "1.A.1.a.ii.",
-                      "name": "Combined heat and power generation",
-                      "type": "ITEM",
-                      "customization_type": "",
-                      "dimension_to_change": null,
-                      "order_number": 1010101010200000000,
-                      "grid_name": "Grid_1010101010200000000",
-                      "template_node_id": null,
-                      "node": [
-                        {
-                          "id": 1329,
-                          "name_prefix": "",
-                          "name": "Liquid fuels",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010201000000,
-                          "grid_name": "Grid_1010101010201000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 1407,
-                          "name_prefix": "",
-                          "name": "Solid fuels",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010202000000,
-                          "grid_name": "Grid_1010101010202000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 331,
-                          "name_prefix": "",
-                          "name": "Gaseous fuels",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010203000000,
-                          "grid_name": "Grid_1010101010203000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 1251,
-                          "name_prefix": "",
-                          "name": "Other fossil fuels",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010204000000,
-                          "grid_name": "Grid_1010101010204000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 341,
-                          "name_prefix": "",
-                          "name": "Peat",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010205000000,
-                          "grid_name": "Grid_1010101010205000000",
-                          "template_node_id": null,
-                          "node": null
-                        },
-                        {
-                          "id": 749,
-                          "name_prefix": "",
-                          "name": "Biomass",
-                          "type": "FIXED_ITEM",
-                          "customization_type": "",
-                          "dimension_to_change": null,
-                          "order_number": 1010101010206000000,
-                          "grid_name": "Grid_1010101010206000000",
-                          "template_node_id": null,
-                          "node": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "data": {
+    "id": 162,
+    "name_prefix": "1.",
+    "name": "Energy",
+    "type": "FIXED",
+    "customization_type": "",
+    "dimension_to_change": null,
+    "order_number": 1010000000000000000,
+    "grid_name": "Grid_1010000000000000000",
+    "template_node_id": null,
+    "node": [
+      {
+        "id": 287,
+        "name_prefix": "1.A.",
+        "name": "Fuel combustion activities (sectoral approach)",
+        "type": "FIXED",
+        "customization_type": "",
+        "dimension_to_change": null,
+        "order_number": 1010100000000000000,
+        "grid_name": "Grid_1010100000000000000",
+        "template_node_id": null,
+        "node": [
+          {
+            "id": 154,
+            "name_prefix": "1.A.1.",
+            "name": "Energy industries",
+            "type": "FIXED",
+            "customization_type": "",
+            "dimension_to_change": null,
+            "order_number": 1010101000000000000,
+            "grid_name": "Grid_1010101000000000000",
+            "template_node_id": null,
+            "node": [
+              {
+                "id": 147,
+                "name_prefix": "1.A.1.a.",
+                "name": "Public electricity and heat production",
+                "type": "LIST",
+                "customization_type": "",
+                "dimension_to_change": null,
+                "order_number": 1010101010000000000,
+                "grid_name": "Grid_1010101010000000000",
+                "template_node_id": null,
+                "node": [
+                  {
+                    "id": 288,
+                    "name_prefix": "1.A.1.a.i.",
+                    "name": "Electricity generation",
+                    "type": "ITEM",
+                    "customization_type": "",
+                    "dimension_to_change": null,
+                    "order_number": 1010101010100000000,
+                    "grid_name": "Grid_1010101010100000000",
+                    "template_node_id": null,
+                    "node": [
+                      {
+                        "id": 938,
+                        "name_prefix": "",
+                        "name": "Liquid fuels",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010101000000,
+                        "grid_name": "Grid_1010101010101000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 1392,
+                        "name_prefix": "",
+                        "name": "Solid fuels",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010102000000,
+                        "grid_name": "Grid_1010101010102000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 362,
+                        "name_prefix": "",
+                        "name": "Gaseous fuels",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010103000000,
+                        "grid_name": "Grid_1010101010103000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 961,
+                        "name_prefix": "",
+                        "name": "Other fossil fuels",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010104000000,
+                        "grid_name": "Grid_1010101010104000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 348,
+                        "name_prefix": "",
+                        "name": "Peat",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010105000000,
+                        "grid_name": "Grid_1010101010105000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 745,
+                        "name_prefix": "",
+                        "name": "Biomass",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010106000000,
+                        "grid_name": "Grid_1010101010106000000",
+                        "template_node_id": null,
+                        "node": null
+                      }
+                    ]
+                  },
+                  {
+                    "id": 296,
+                    "name_prefix": "1.A.1.a.ii.",
+                    "name": "Combined heat and power generation",
+                    "type": "ITEM",
+                    "customization_type": "",
+                    "dimension_to_change": null,
+                    "order_number": 1010101010200000000,
+                    "grid_name": "Grid_1010101010200000000",
+                    "template_node_id": null,
+                    "node": [
+                      {
+                        "id": 1329,
+                        "name_prefix": "",
+                        "name": "Liquid fuels",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010201000000,
+                        "grid_name": "Grid_1010101010201000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 1407,
+                        "name_prefix": "",
+                        "name": "Solid fuels",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010202000000,
+                        "grid_name": "Grid_1010101010202000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 331,
+                        "name_prefix": "",
+                        "name": "Gaseous fuels",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010203000000,
+                        "grid_name": "Grid_1010101010203000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 1251,
+                        "name_prefix": "",
+                        "name": "Other fossil fuels",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010204000000,
+                        "grid_name": "Grid_1010101010204000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 341,
+                        "name_prefix": "",
+                        "name": "Peat",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010205000000,
+                        "grid_name": "Grid_1010101010205000000",
+                        "template_node_id": null,
+                        "node": null
+                      },
+                      {
+                        "id": 749,
+                        "name_prefix": "",
+                        "name": "Biomass",
+                        "type": "FIXED_ITEM",
+                        "customization_type": "",
+                        "dimension_to_change": null,
+                        "order_number": 1010101010206000000,
+                        "grid_name": "Grid_1010101010206000000",
+                        "template_node_id": null,
+                        "node": null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
